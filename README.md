@@ -1,10 +1,7 @@
 ## GETTING STARTED:
-* DO NOT MISS THE .babelrc at project root!
 * To get the app running :
     1. Go to project root
-    2. run ``` $ yarn add live-server babel-cli@6.24.1 ```
-
-    3. * run ``` $ yarn run dev-server ``` for local developer mode
+    3.  * run ``` $ yarn run dev-server ``` for local developer mode
         * run ```$ yarn run build:prod ``` for prod mode
 
 ### RERUN dev-server whenever YOU EDIT 
@@ -13,9 +10,6 @@
 * To change your entry point of your app go to
         webpack.config.js and edit entry:  './src/app.js'
 
-
-Goal of this app can be seen here:
-http://expensify.mead.io/
 
 Origin Source Code:
 https://github.com/andrewjmead/react-course-2-indecision-app
@@ -37,6 +31,7 @@ To run your test cases run from project root
 * ```$ yarn test```
 * **NOTE:** you need to have installed ```jest```
 * **NOTE:** your test files should be in ```src/tests``` and end with ```.test.js```
+* **NOTE:** use ```$ yarn test --  --watch``` during development to see test runs on file change
         
         $ yarn test --  --watch 
         Watch Usage
@@ -60,9 +55,9 @@ To run your test cases run from project root
 ## Heroku
 after setup account at heroku and install heroku-cli, console:
 * ```$ heroku login```   -> login with email and password of your (fresh) account
-* ```$  heroku create react-course-foo-expensify-app ```
-Creating ⬢ react-course-foo-expensify-app... done
-https://react-course-foo-expensify-app.herokuapp.com/ | https://git.heroku.com/react-course-foo-expensify-app.git
+* ```$  heroku create my-app ```
+Creating ⬢ my-app... done
+https://my-app.herokuapp.com/ | https://git.heroku.com/my-app.git
 -> New heroku repository!
 
 * Push to heroku repository
@@ -80,4 +75,3 @@ you need to have a firebase account. After setup, provide the respective credent
 * FIREBASE_PROJECT_ID
 * FIREBASE_STORAGE_BUCKET
 * FIREBASE_MESSAGING_SENDER_ID
-	
